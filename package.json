@@ -2,7 +2,7 @@
   "name": "portfolio-website",
   "version": "1.0.0",
   "private": true,
-  "description": "portfolio-website",
+  "description": "Aleksander Garbuz's Portfolio Website",
   "author": "ATG218",
   "keywords": [
     "gatsby"
@@ -21,6 +21,10 @@
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
     "babel-preset-gatsby": "^2.22.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/ATG218/PortfolioWebsite.git",
+  "license": "MIT"
 }
