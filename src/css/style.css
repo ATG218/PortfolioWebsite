@@ -34,7 +34,7 @@ p{
   font-family: "Source Code Pro";
   font-weight: lighter;
   font-size: 24px;
-  color: rgb(31, 77, 89);
+  color: rgb( 26, 151, 156);
 
 }
 .in2{
@@ -388,7 +388,7 @@ nav #menu li a:hover {
 }
 .social a:hover {
   top: -2px;
-  color: rgb(100, 255, 218);
+  color: rgb(26, 151, 156);
   text-decoration: none;
 }
 .socials {
@@ -400,7 +400,7 @@ nav #menu li a:hover {
 h6 {
       text-align: center;
       font-family: "Source Code Pro";
-      color: rgb(100, 255, 218);
+      color: rgb(26, 151, 156);
 }
 
 .vertical {
@@ -467,7 +467,7 @@ align-items: center;
 
 .project-overline {
   margin: 10px 0px;
-    color: #64ffda !important;
+    color: #1a979c !important;
     font-family: "Source Code Pro";
     font-size: 13px;
     font-weight: 400;
