@@ -70,66 +70,33 @@ p{
 
 
 /*--------------- typewriter effect --------------- */
-.line {
-      width: 200em;
-      top: 50%;
-      margin: auto;
-      border-right: 2px solid rgb(136, 146, 176);
-      text-align: center;
-      white-space: nowrap;
-      overflow: hidden;
-      transform: translateY(-50%);
+#container {
+	text-align: center;
 }
 
-.anim-typewriter {
-
-      animation: typewriter 4s steps(35) 1.7s 1 normal both,
-      blinkTextCussor 500ms steps(35) infinite normal;
-      height: 70px;
-      font-size: 60px;
-      color: rgb(136, 146, 176);
-}
-@media(max-width: 768px) {
-      .line {
-            width: 1em;
-
-      }
-      .anim-typewriter{
-        height:50px;
-      }
-
+#text {
+	display: inline-block;
+	vertical-align: middle;
+	color: rgb(204, 214, 246);
+	letter-spacing: 2px;
 }
 
-@keyframes typewriter {
-
-      from {
-
-            width: 0;
-      }
-      to {
-            width: 17.75em;
-      }
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 50px;
+	background-color: rgb(204, 214, 246);
+	animation: blink .75s step-end infinite;
 }
 
-@media(max-width: 768px) {
-      @keyframes typewriter {
-            from {
-                  width: 0;
-            }
-            to {
-                  width: 18em;
-            }
-      }
-}
-
-@keyframes blinkTextCussor {
-      from {
-
-            border-right-color: rgb(204, 214, 246);
-      }
-      to {
-            border-right-color: transparent;
-      }
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: rgb(204, 214, 246); 
+	}
 }
 
 
