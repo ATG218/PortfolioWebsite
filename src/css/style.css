@@ -5,7 +5,7 @@ html, body {
       padding: 0;
       width: 100%;
       height: 100%;
-      font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+      font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
       background: rgb(29, 28, 33) !important; /* 1F4D59 */
       color: rgb(249, 238, 204) !important; /* F9EECC */
       scroll-behavior: smooth;
