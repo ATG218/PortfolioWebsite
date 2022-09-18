@@ -79,8 +79,8 @@ p{
 	vertical-align: middle;
 	color: rgb(249, 238, 204);
 	letter-spacing: 2px;
-      font-weight: 700;
-      font-size: 70px;
+      font-weight: 500;
+      font-size: 50px;
       position: relative;
 }
 
@@ -599,7 +599,7 @@ align-items: center;
 }
 
 .info p {
-      color: rgb(100, 255, 218);
+      color: #F8742B;
       font-weight: lighter;
 }
 
@@ -684,7 +684,7 @@ align-items: center;
   position: relative;
   text-decoration: none;
   cursor: pointer;
-  color: rgb(100, 255, 218);
+  color: #F8742B;
 }
 #link:before{
   content: "";
@@ -727,7 +727,7 @@ ul.skills-list li::before{
   content: "▹";
     position: absolute;
     left: 0px;
-    color: #64ffda;
+    color: #F8742B;
     font-size: 14px;
     line-height:18px;
 }
@@ -749,9 +749,9 @@ ul.skills-list li::before{
 }
 
 .email-link {
-  color: #64ffda;
+  color: #F8742B;
   background-color: transparent;
-  border: 1px solid #64ffda;
+  border: 1px solid #F8742B;
   border-radius: 4px;
   padding: 1.25rem 1.75rem;
   font-size: 14px;
@@ -770,8 +770,8 @@ ul.skills-list li::before{
 
 .email-link:hover {
   text-decoration: none;
-  color: #64ffda;
-  background-color: rgba(100, 255, 218, 0.1)
+  color: #F8742B;
+  background-color: rgba(248, 116, 43, 0.1)
 
 }
 
@@ -808,6 +808,6 @@ ul.skills-list li::before{
 }
 
 .project-links a:hover {
-  color: rgb(100, 255, 218);
+  color: #F8742B;
   text-decoration: none;
 }
