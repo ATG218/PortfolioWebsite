@@ -77,8 +77,11 @@ p{
 #text {
 	display: inline-block;
 	vertical-align: middle;
-	color: rgb(204, 214, 246);
+	color: rgb(249, 238, 204);
 	letter-spacing: 2px;
+      font-weight: 700;
+      font-size: 70px;
+      position: relative;
 }
 
 #cursor {
@@ -86,8 +89,8 @@ p{
 	vertical-align: middle;
 	width: 3px;
 	height: 50px;
-	background-color: rgb(204, 214, 246);
-	animation: blink .75s step-end infinite;
+	background-color: rgb(249, 238, 204);
+	animation: blink 1s step-end infinite;
 }
 
 @keyframes blink {
@@ -95,7 +98,7 @@ p{
 		background-color: transparent 
 	}
 	50% { 
-		background-color: rgb(204, 214, 246); 
+		background-color: rgb(249, 238, 204); 
 	}
 }
 
