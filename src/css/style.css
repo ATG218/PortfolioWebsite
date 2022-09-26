@@ -88,6 +88,16 @@ p{
       position: relative;
 }
 
+#text1 {
+      display: inline-block;
+	vertical-align: middle;
+	color: rgb(249, 238, 204);
+	letter-spacing: 2px;
+      font-weight: 425;
+      font-size: 45px;
+      position: relative;
+}
+
 #cursor {
 	display: inline-block;
 	vertical-align: middle;
