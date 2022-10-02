@@ -272,18 +272,21 @@
 
                                           <h3 class="wow fadeInUp" data-wow-delay="1s">Contact me 👋</h3><br>
                                           <p class="wow fadeInUp" data-wow-delay="1.2s" style="max-width: 600px; display: block; margin-left: auto; margin-right: auto;">I am currently focusing on physics-based work, though I am open to anything!</p>
-                                          <button class="button open-button">Get In Touch</button>
-                                          <dialog class="modal" id="modal">
-                                                <h2>An interesting title</h2>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse nisi, laboriosam illum temporibus ipsam?</p>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quo.</p>
-                                                <button class="button close-button">close modal</button>
-                                                <form class="form" method="dialog">
-                                                  <label>Your name <input type="text"></label>
-                                                  <label>Your email <input type="email"></label>
-                                                  <button class="button" type="submit">submit form</button>
-                                                </form>
-                                          </dialog>
+                                          <a href="#" id="button" class="button">Get In Touch</a>
+                                          <div class="bg-modal">
+                                                <div class="modal-contents">
+                                          
+                                                      <div class="close">+</div>
+                                                      <img src="img/android-chrome-512x512.png" alt="">
+                                          
+                                                      <form action="">
+                                                            <input type="text" placeholder="Name">
+                                                            <input type="email" placeholder="E-Mail">
+                                                            <a href="#" class="button">Submit</a>
+                                                      </form>
+                                          
+                                                </div>
+                                          </div>
                                     </div>
                               </div>
                         </div>
@@ -309,13 +312,13 @@
                         <div class="info">
                               <div class="row">
                                     <div class="col-lg-4" id="personal">
-                                          <p class="wow fadeInUp">follow me</p>
+                                          <p class="wow fadeInUp">Follow Me</p>
                                           <h4 class="wow fadeInUp" data-wow-delay="0.2s"><a target="_blank" id="link" href="https://www.instagram.com/aleksander_garbuz">@aleksander_garbuz</a></h4>
                                           <br><br>
                                     </div>
 
                                     <div class="col-lg-4" id="media">
-                                          <p class="wow fadeInUp" data-wow-delay="0s">connect with me</p>
+                                          <p class="wow fadeInUp" data-wow-delay="0s">Connect With Me</p>
                                           <div class="social mt-15">
                                               <a target="_blank" href="https://www.linkedin.com/in/aleksander-garbuz" class="wow fadeInUp fa fa-linkedin socials" data-wow-delay="0.4s"></a>
                                               <a target="_blank" href="https://www.instagram.com/aleksander_garbuz/" class="wow fadeInUp fa fa-instagram socials" data-wow-delay="0.6s"></a>
@@ -328,7 +331,7 @@
                                     </div>
 
                                     <div class="col-lg-4" id="address">
-                                          <p class="wow fadeInUp" data-wow-delay="0s">say hello</p>
+                                          <p class="wow fadeInUp" data-wow-delay="0s">Say Hello</p>
                                           <h4 class="wow fadeInUp" data-wow-delay="0.2s"><a id="link" href="mailto:alextgarbuz@gmail.com">alextgarbuz@gmail.com</a></h4>
                                           <br><br>
                                     </div>
@@ -353,16 +356,12 @@
 
       <script type="text/javascript">
       // modal control
-      const modal = document.querySelector("#modal");
-      const openModal = document.querySelector(".open-button");
-      const closeModal = document.querySelector(".close-button");
-
-      openModal.addEventListener("click", () => {
-            modal.showModal();
+      document.getElementById('button').addEventListener("click", function() {
+	      document.querySelector('.bg-modal').style.display = "flex";
       });
 
-      closeModal.addEventListener("click", () => {
-            modal.close();
+      document.querySelector('.close').addEventListener("click", function() {
+	      document.querySelector('.bg-modal').style.display = "none";
       });
       
       // List of sentences
