@@ -127,6 +127,14 @@ p{
       justify-content: center;
 }
 
+.btn btn-primary btn-lg{
+      padding: 10px 60px;
+      background:rgb(248, 116, 43);
+      border: 0;
+      outline: none;
+      border-radius: 30px;
+}
+
 /*--------------- navigation --------------- */
 nav {
       width: 100%;
