@@ -91,6 +91,52 @@
 
                   <div class="whitespace"></div>
 
+                  <!--Carousel Wrapper-->
+                  <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+                  <!--Indicators-->
+                  <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                  </ol>
+                  <!--Slides-->
+                  <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                        <div class="view">
+                        <img class="d-block w-100" src="img/GSS.png"
+                              alt="First slide" id="ResearchProject">
+                        <div class="mask rgba-black-light"></div>
+                        </div>
+                        <div class="carousel-caption">
+                        <h3 class="h3-responsive">🌎 Governor's STEM Scholars 🌎</h3>
+                        <p>Albedo Research</p>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view">
+                        <img class="d-block w-100" src="img/Solar-Assistant.jpg"
+                              alt="Second slide" id="Solar=Assistant">
+                        <div class="mask rgba-black-strong"></div>
+                        </div>
+                        <div class="carousel-caption">
+                        <h3 class="h3-responsive">Solar Assistant</h3>
+                        <p>🏆 Hackathon Winner 🏆</p>
+                        </div>
+                        </div>
+                  </div>
+                  <!--Controls-->
+                  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                  </a>
+
+                  </div>
+                  <!--/.Carousel Wrapper-->
+
                   <!--Project 1-->
                   <div style="display:block;">
                         <div class="wow fadeInUp project"  data-wow-delay="0.3s" data-sr-id="6" style="visibility: visible;opacity: 1;transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;">
@@ -341,6 +387,13 @@
       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
       <script type="text/javascript">
+      // Carousel Clicky Thing
+      $(document).ready(function() {
+        $('img.thumbnail').click(function() {
+            window.location.href = this.id + '.html';
+        });
+      });
+
       // modal control
       document.getElementById('button').addEventListener("click", function() {
 	      document.querySelector('.bg-modal').style.display = "flex";
