@@ -224,6 +224,10 @@ nav #menu li a:hover {
       line-height: 80px;
 }
 
+.btn-primary, .btn-lg {
+      background-color: #F8742B !important;
+}
+
 #resize {
       z-index: 5;
       top: 0px;
