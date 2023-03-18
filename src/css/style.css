@@ -720,6 +720,13 @@ ul.skills-list{
     overflow: hidden;
     list-style: none;
 }
+ul.skills-list1{
+      display: grid;
+        padding: 0px;
+        margin: 20px 0px 0px;
+        overflow: hidden;
+        list-style: none;
+    }
 .overflow {
       white-space: nowrap;
       overflow: hidden;
